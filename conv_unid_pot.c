@@ -1,6 +1,6 @@
 // Convers?o de unidade de potÃªncia
 // Teste (com o int main)
-// adição das acentuações
+// vericação
 
 #include <stdio.h>
 #include <stdlib.h>
