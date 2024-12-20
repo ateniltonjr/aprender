@@ -1,6 +1,6 @@
 // Convers?o de unidade de potÃƒÂªncia
 // Teste (com o int main)
-// veriation vericação
+// Estamos aprendendo
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -44,7 +44,6 @@ do {
     ConversaoPotencia(unidadep, valorp);
     
     printf("\nDigite 's' caso deseje continuar e 'n' caso deseja encerrar\n");
-    getchar();
     scanf(" %c", &continuar); }
 
 while (continuar == 's' || continuar == 'S');
