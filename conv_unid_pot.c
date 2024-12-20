@@ -1,4 +1,5 @@
-// Convers?o de unidade de pot?ncia
+// Convers?o de unidade de potência
+// Teste (com o int main)
 
 #include <stdio.h>
 #include <stdlib.h>
