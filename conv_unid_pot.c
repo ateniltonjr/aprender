@@ -1,6 +1,6 @@
 // Convers?o de unidade de potÃªncia
 // Teste (com o int main)
-// Estamos aprendendo
+// Aprendi, ogradado meu Deus, am�m
 
 #include <stdio.h>
 #include <stdlib.h>
