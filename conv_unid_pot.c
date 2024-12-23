@@ -1,4 +1,5 @@
-// Conversão de unidade potência (w, kw e cv ou hp)
+// Conversão de unidade potência
+// Watts, kilo Watts, cavalo vapor e Hourse Power.
 
 #include <stdio.h>
 #include <stdlib.h>
