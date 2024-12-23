@@ -9,11 +9,11 @@
 void convEnergia(char unidade, float valor) {
     switch (unidade) {
         case 'j':
-        printf("O valor da energia é: \n%.2f J \n%.2f kJ\n", valor, valor*1000);
+        printf("O valor da energia é: \n%.3f J \n%.3f kJ\n", valor, valor*1000);
         break;
 
         case 'k':
-        printf("O valor da energia é: \n%.2f J \n%.2f kJ\n", valor/1000, valor);
+        printf("O valor da energia é: \n%.3f J \n%.3f kJ\n", valor/1000, valor);
         break;
 
         default:
@@ -39,7 +39,7 @@ int main() {
         convEnergia(unidade, valor);
 
         printf("\nDigite s para continuar, ou outra tecla para encerrar.\n");
-        scanf( " %c", &continuar);
+        scanf("  %c", &continuar);
     }
 
     while (continuar == 's' || continuar == 'S');
