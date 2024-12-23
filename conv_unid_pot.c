@@ -1,6 +1,4 @@
-// Convers?o de unidade de potÃƒÂªncia
-// Teste (com o int main)
-// Aprendi, obrigado meu Deus, amém
+// Conversão de unidade potência (w, kw e cv ou hp)
 
 #include <stdio.h>
 #include <stdlib.h>
