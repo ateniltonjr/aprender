@@ -1,4 +1,4 @@
-// convers„o de medidas de tempo
+// convers√£o de medidas de tempo
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -19,10 +19,10 @@ void conversaoTempo( char unidade, int valor) {
         break;
 
         default:
-        printf("Unidade inv·lida! Digite s, m ou h.");
+        printf("Unidade inv√°lida! Digite s, m ou h.");
     } }
 
-int main() {
+void ShowConversaoPotenciaMenu() {
 int valor, encerrar;
 char unidade;
 
