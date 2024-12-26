@@ -1,6 +1,5 @@
 // Conversão de unidade potência
 // Watts, kilo Watts, cavalo vapor e Hourse Power.
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -28,7 +27,7 @@ void ConversaoPotencia( char unidadep, float valorp) {
     default:
         printf("Unidade invÃ¡lida. Por favor, insira w, k, c ou h.\n"); }
     }
-int main() {
+void ShowConversaoPotenciaMenu() {
  setlocale(LC_ALL, "portuguese");
  char unidadep, continuar;
  float valorp;

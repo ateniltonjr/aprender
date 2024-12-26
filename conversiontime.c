@@ -23,7 +23,7 @@ void conversaoTempo( char unidade, int valor) {
         printf("Unidade inválida! Digite s, m ou h.");
     } }
 
-int main() {
+void ShowConversaoTempoMenu() {
 int valor, encerrar;
 char unidade;
 

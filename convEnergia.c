@@ -22,7 +22,7 @@ void convEnergia(char unidade, float valor) {
     }
 }
 
-int main() {
+void ShowConversaoEnergiaMenu() {
 
     char unidade, continuar;
     float valor;
